@@ -1,0 +1,11 @@
+.navbar1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.navbar1 > div {
+    display: flex;
+    gap: 20px;
+}

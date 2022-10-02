@@ -1,0 +1,49 @@
+#main {
+    background-color: white;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#products_section {
+    padding: 50px;
+    width: 70%;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 10px; */
+}
+
+#products_section > div {
+    /* margin: 50px 50px; */
+    width: 95%;
+    margin-bottom: 20px;
+    line-height: 16px;
+    padding: 10px;
+    border: 1px solid teal;
+}
+
+#products_section > div > img {
+    width: 70%;
+    height: 200px;
+}
+
+/* sidebar section */
+#sidebar_section {
+    width: 30%;
+    margin-top: 50px;
+}
+#sidebar_section > button {
+    width: 90%;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#sidebar_section > button:hover {
+    cursor: pointer;
+}
+
+#products_section > button {
+    display: block;
+    background-color: white;
+}

@@ -1,0 +1,83 @@
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navbar2 > div {
+    display: flex;
+    gap: 20px;
+}
+#multicolor img {
+    width: 45%;
+}
+#icons {
+    width: 20%;
+}
+#icons img {
+    width: 40%;
+}
+#navbar3 {
+    height: 30px;
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+}
+#navbar3 p {
+    color: white;
+}
+/* registration and login form */
+.formPage {
+    width: 30%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+.formPage > input, button {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.formPage > button {
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+/* new animals page css */
+.gfg {
+    position: relative;
+}
+.gfg > img {
+    width: 100%;
+}
+.first-txt {
+    position: absolute;
+    top: 5px;
+    margin:auto;
+    left: 500px;
+}
+.second-txt {
+    position: absolute;
+    margin: auto;
+    bottom: 15px;
+    left: 640px;
+}
+#branding > img {
+    width: 100%;
+    margin: -4px;
+}
+.third-txt {
+    background-color: white;
+    width: 30%;
+    position: absolute;
+    margin: auto;
+    margin: 10px;
+    bottom: 20px;
+}
